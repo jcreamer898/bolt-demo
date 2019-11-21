@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "paths": {
+            "@rebels/alpha": ["packages/theme-one/alpha/src/index"],
+            "@rebels/beta": ["packages/theme-one/beta/src/index"],
+            "@rebels/charlie": ["packages/theme-one/charlie/src/index"],
+            "@rebels/ewoks": ["packages/theme-one/ewoks/src/index"]
+        },
+        "baseUrl": ".",
+        "rootDir": "."
+    },
+    "extends": "./build/hoth/src/configs/tsconfig.json",
+    "include": ["./types/**/*", "./packages/**/*", "build/**/*"]
+}

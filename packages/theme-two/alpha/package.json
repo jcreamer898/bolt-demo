@@ -2,6 +2,7 @@
     "name": "@rebels/alpha",
     "version": "1.0.0",
     "dependencies": {
+        "@types/react": "^16.9.11",
         "react": "^16.12.0"
     }
 }

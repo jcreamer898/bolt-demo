@@ -1,3 +1,10 @@
+const resolver = {
+    root: ['.'],
+    alias: {
+        '@rebels/endor': './packages/theme-one/endor/src',
+    },
+};
+
 module.exports = {
     presets: [
         [
@@ -14,5 +21,6 @@ module.exports = {
     plugins: [
         '@babel/proposal-class-properties',
         '@babel/plugin-syntax-dynamic-import',
+        ['module-resolver', resolver],
     ],
 };
